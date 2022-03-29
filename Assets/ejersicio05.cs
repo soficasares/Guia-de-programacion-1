@@ -9,12 +9,17 @@ public class ejersicio05 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("la divicion entre" + num1 + "y" + num2 + "da como resultado"(num1 / num2));
-
-        if (num2 = 0)
+        if (num2 == 0)
         {
             Debug.Log("No se puede dividir por 0");
         }
+        else
+        {
+            Debug.Log("la divicion entre" + num1 + "y" + num2 + "da como resultado" + (num1 / num2));
+        }
+       
+
+       
         
     }
 
